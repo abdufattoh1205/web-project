@@ -1,0 +1,480 @@
+
+body{
+    margin: 0;
+}
+
+.body{
+  background: #24cca8;
+}
+
+.body.bg{
+  background-color: #fff;
+}
+
+.page1{
+    box-sizing: border-box;
+    /* background-color: #24CCA8; */
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* --------------------------------------------- Navbar 1 ----------------------------------------------------- */
+
+.Navbar{
+  box-sizing: border-box;
+    padding: 0px 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: absolute;   */
+    /* background: #24CCA8;   */
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.list{
+    gap: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.list li{
+    padding: 12px 0px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 10px;
+    list-style: none;
+}
+
+.joinUs{
+    top: 30px;
+    right: 100px;
+    cursor: pointer;
+    width: 127px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 50px;
+    border: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+}
+
+.joinUsBtn{
+    padding: 0px 16px;
+}
+
+.joinUsBtn a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ------------------------------------------------ Navbar 1 ------------------------------------------------- */
+
+
+
+/* ------------------------------------------------ Page 1 -------------------------------------------------- */
+
+
+.App{
+    box-sizing: border-box;
+    padding: 0px 100px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* padding-top: 96px ; */
+    background: #24cca8;
+    /* margin-top: 96px ; */
+}
+
+.rightPage{
+    width: 50%;
+    color: white;
+}
+
+.rightH1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 106px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.rightH3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rightP{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.pageA{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px ;
+}
+
+.pageA a{
+    text-decoration: none;
+    color: white;
+    padding-left: 0px;
+}
+
+.imagesPlay{
+    display: flex;
+    align-items: center;
+    
+}
+
+.imagesPlay img{
+    cursor: pointer;
+}
+
+.ios{
+    margin-bottom: 5px ;
+}
+
+.android{
+    margin-right: 10px ;
+}
+
+.pageView{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    
+}
+
+.pageView a{
+    color: white;
+    padding: 0px;
+
+}
+
+.leftPage{
+    width: 50%;    
+}
+
+.leftPage img{
+    width: 759px;
+    height: 715px;
+    margin-top: -70px;
+    /* position: absolute; */
+    /* background: rgb(36,204,168); */
+}
+
+
+/* ----------------------------------------- page 1 ----------------------------------------------- */
+
+
+/* ------------------------------------------------ Navbar 2 ----------------------------------------------- */
+
+
+  
+.Navbar2 {
+  margin-top: 96px;
+    padding: 0px 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo2{
+    display: flex;
+    align-items: center;
+    color: #24cca8;
+  }
+  
+  .logo2 h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+  
+  .list2 {
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .list2 li {
+    color: #24cca8;
+    padding: 12px 0px;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 10px;
+    list-style: none;
+  }
+  
+  .joinUs2 {
+    width: 127px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 50px;
+    border: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    background-color: #24cca8;
+  }
+  
+  .joinUsBtn2 {
+    padding: 0px 16px;
+  }
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+
+
+/* ------------------------------------------------ Navbar 2 ----------------------------------------------- */
+
+
+
+/* ----------------------------------------- page 2 ----------------------------------------------- */
+
+
+.body_second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s;
+    background: #fff;
+  }
+  .body_left {
+    width: 645px;
+    height: 439px;
+    padding-left: 50px;
+    margin-left: 100px;
+    margin-bottom: 175px;
+    overflow: hidden;
+    margin-top: -200px;
+  }
+
+  .body_second::before{
+    content: "";
+    position: absolute;
+    height: 239px;
+    width: 5px;
+    background: #24cca8;
+    left: 110px;
+    margin-top: -200px;
+  } 
+
+  .head_one {
+    font-family: "Roboto", sans-serif;
+    size: 48px;
+    font-size: 50px;
+    padding-top: 10px;
+  }
+  .parag_one {
+    font-family: "Roboto", sans-serif;
+    size: 18px;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  .body_right {
+    background-image: url("./images/Rectangle\ 16.svg");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 600px;
+    height: 650px;
+    margin-bottom: 100px;
+  }
+  
+  .img_phone {
+    margin-left: 120px;
+  }
+
+  .left_1{
+    margin-top: 200px;
+  }
+
+
+  .left_2{
+    margin-top: 250px;
+  }
+
+
+/* ------------------------------------------------- page 2 -------------------------------------------- */
+
+
+/* ------------------------------------------------- Navbar 3 ------------------------------------------- */
+
+
+.container {
+    background-color: #0f172a;
+  }
+  .Navbar3 {
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo3{
+    display: flex;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .logo3 h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+  }
+  
+  .list3 {
+    gap: 48px;
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .list3 li {
+    color: #fff;
+    padding: 12px 0px;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 10px;
+    list-style: none;
+  }
+  
+  .joinUs3 {
+    width: 127px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 50px;
+    border: 2px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    background-color: #fff;
+  }
+  
+  .joinUsBtn3 {
+    padding: 0px 16px;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 58px;
+  }
+  
+/* ----------------------------------------- footer -------------------------------------------*/
+  .link_list {
+    display: flex;
+  }
+  .link_parag {
+    color: #fff;
+    padding-left: 100px;
+    font-family: "Roboto" sans-serif;
+  }
+
+  .link_li {
+    padding-top: 20px;
+    font-family: "Roboto" sans-serif;
+  }
+
+  .link_list li:hover{
+    transition: 0.3s;
+    scale: 1.1;
+  }
+
+  .icon {
+    padding-left: 10px;
+  }
+  .link_side {
+    display: flex;
+    align-items: center;
+  }
+  .sides {
+    display: flex;
+  }
+
+  .sides p:hover{
+    scale: 1.1;
+    transition: 0.3s    ;
+  }
+
+  .logos {
+    display: flex;
+    padding-left: 110px;
+  }
+
+  .logos i:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transition: 0.3s;
+  }
+
+  .logoo {
+    padding-left: 30px;
+    padding-top: 18px;
+  }
+  .logoos {
+    padding-left: 30px;
+  }
+  
+/* ----------------------------------------- footer -------------------------------------------*/
+
+  

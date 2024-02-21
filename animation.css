@@ -1,0 +1,458 @@
+
+/* Navbar list 1 */
+
+#home#af::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    background: #24CCA8;
+    top: 60px;
+    margin-left: -60px ;    
+    transition: 0.4s;
+}
+
+.list , .list2 , .list3 li{
+    cursor: pointer;
+}
+
+.list li:after{
+height: 3px;
+}
+
+.list li:nth-child(1)::after{
+
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    background: #fff;
+    top: 60px;
+    margin-left: -60px ;    
+    transition: 0.4s;
+}
+
+.list li:nth-child(1):hover::after{
+
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 80px;
+    background: #fff;
+    top: 60px;
+    margin-left: -60px ;    
+
+
+}
+
+
+.list li:nth-child(2)::after{
+
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    background: #fff;
+    top: 60px;
+    margin-left: -82px ;    
+    transition: 0.4s;
+
+}
+
+.list li:nth-child(2):hover::after{
+
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    background: #fff;
+    top: 60px;
+    margin-left: -82px ;    
+
+
+}
+
+.list li:nth-child(3)::after{
+
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    background: #fff;
+    top: 60px;
+    margin-left: -110px ;    
+    transition: 0.4s;
+}
+
+
+.list li:nth-child(3):hover::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 120px;
+    background: #fff;
+    top: 60px;
+    margin-left: -110px ;    
+}
+
+.list li:nth-child(4)::after{
+
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0px;
+    background: #fff;
+    top: 60px;
+    margin-left: -60px ;    
+    transition: 0.4s;
+}
+
+
+.list li:nth-child(4):hover::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 75px;
+    background: #fff;
+    top: 60px;
+    margin-left: -60px ;    
+
+}
+
+/* Navbar list 1 */
+
+/* Navbar list 2 */
+
+.list2 li::after{
+   height: 3px;
+}
+
+.list2 li:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    width: 0px;
+    margin: 20px -60px;
+    transition: 0.4s;
+}
+
+.list2 li:nth-child(1):hover::after{
+    content: "";
+    position: absolute;
+    background: #24CCA8;
+    height: 3px;
+    width: 80px;
+    margin: 20px -60px;
+}
+
+.list2 li:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    background: #24CCA8;
+    height: 3px;
+    width: 0px;
+    margin: 20px -82px;
+    transition: 0.4s;
+}
+
+.list2 li:nth-child(2):hover::after{
+    content: "";
+    position: absolute;
+    background: #24CCA8;
+    height: 3px;
+    width: 100px;
+    margin: 20px -82px;
+}
+
+.list2 li:nth-child(3)::after{
+    content: "";
+    position: absolute;
+    background: #24CCA8;
+    height: 3px;
+    width: 0px;
+    margin: 20px -110px;
+    transition: 0.4s;
+}
+
+.list2 li:nth-child(3):hover::after{
+    content: "";
+    position: absolute;
+    background: #24CCA8;
+    height: 3px;
+    width: 120px;
+    margin: 20px -110px;
+}
+
+.list2 li:nth-child(4)::after{
+    content: "";
+    position: absolute;
+    background: #24CCA8;
+    height: 3px;
+    width: 0px;
+    margin: 20px -60px;
+    transition: 0.4s;
+}
+
+.list2 li:nth-child(4):hover::after{
+    content: "";
+    position: absolute;
+    background: #24CCA8;
+    height: 3px;
+    width: 70px;
+    margin: 20px -60px;
+}
+
+/* Navbar list 2 */
+
+
+/* Navbar list3 */
+
+
+.list3 li::after{
+    height: 2px;
+}
+
+.list3 li:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    width: 0px;
+    margin: 20px -60px;
+    transition: 0.4s;
+}
+
+.list3 li:nth-child(1):hover::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    width: 80px;
+    margin: 20px -60px;
+}
+
+.list3 li:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    width: 0px;
+    margin: 20px -82px;
+    transition: 0.4s;
+}
+
+.list3 li:nth-child(2):hover::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    width: 100px;
+    margin: 20px -82px;
+}
+
+.list3 li:nth-child(3)::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    width: 0px;
+    margin: 20px -110px;
+    transition: 0.4s;
+}
+
+.list3 li:nth-child(3):hover::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    width: 120px;
+    margin: 20px -110px;
+}
+
+.list3 li:nth-child(4)::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    width: 0px;
+    margin: 20px -60px;
+    transition: 0.4s;
+}
+
+.list3 li:nth-child(4):hover::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 3px;
+    width: 70px;
+    margin: 20px -60px;
+}
+
+/* Navbar list3 */
+
+
+
+/* Navabr btn */
+
+.joinUs{
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.joinUs:active{
+    scale: 0.8;
+    transition: 300ms;
+}
+
+
+.joinUs2{
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.joinUs2:active{
+    scale: 0.8;
+    transition: 300ms;
+}
+
+
+.joinUs3{
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.joinUs3:active{
+    scale: 0.8;
+    transition: 300ms;
+}
+
+
+
+/* Navabr btn */
+
+
+ /* whole animation */
+ 
+.body_second {
+    animation: page2  cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+@keyframes page2 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+
+        transform: translateY(-825px);
+    }
+}
+
+.container{
+    padding-bottom: 10px;
+    animation: page3 forwards;
+    animation-duration: 700ms;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes page3 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+
+        transform: translateY(-825px);
+    }
+}
+
+#navbar{
+    animation: bgchanger forwards;
+    animation-duration: 800ms;
+    animation-delay: 2.4s ;
+} 
+
+@keyframes bgchanger {
+    0%{
+        background: #24CCA8;
+        color: #fff;
+    }
+
+    100%{
+        background-color: #fff;
+        color: #24CCA8;
+    }
+}
+
+#joinUs{
+    animation: joinus forwards;
+    animation-duration: 800ms;
+    animation-delay: 2.4s ;
+} 
+
+@keyframes joinus {
+    0%{
+        background: #24CCA8;
+        color: #fff;
+    }
+
+    100%{
+        background-color: #24CCA8;
+        color: #000;
+    }
+}
+
+
+
+
+
+.App{
+    animation: fadeOut 2s forwards;
+    animation-delay: 2s;
+    animation-duration: 2s;
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ } 
+
+.left_1{
+    animation: topauto  cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+    animation-delay: 3.5s;
+    animation-duration: 900ms;
+}
+
+@keyframes topauto{
+    
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+
+        transform: translateY(-380px);
+    }
+
+}
+
+.left_2{
+    animation: topkeep  cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+    animation-delay: 3.5s;
+    animation-duration: 900ms;
+}
+
+@keyframes topkeep{
+    
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+
+        transform: translateY(-440px);
+    }
+
+}
+
+/* whole animation */
